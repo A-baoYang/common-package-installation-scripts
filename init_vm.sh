@@ -1,3 +1,4 @@
+sudo apt-get update
 # install tmux
 sudo apt-get install -y tmux
 # install htop
