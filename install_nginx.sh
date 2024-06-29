@@ -9,4 +9,5 @@ sudo nano /etc/nginx/sites-available/<your.domain.name>
 
 sudo ln -s /etc/nginx/sites-available/<your.domain.name> /etc/nginx/sites-enabled/
 sudo nginx -t
+# sudo systemctl daemon-reload
 sudo service nginx restart

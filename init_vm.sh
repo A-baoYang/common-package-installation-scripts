@@ -9,3 +9,7 @@ sudo apt-get install -y htop
 sudo apt install -y git
 # install pip
 sudo apt install -y python3-pip
+# install zip
+sudo apt install -y zip
+# install python
+sudo apt install -y python3

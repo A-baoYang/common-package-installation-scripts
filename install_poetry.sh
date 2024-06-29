@@ -1,3 +1,5 @@
+sudo apt-get update
+sudo apt-get install -y curl
 # install poetry
 curl -sSL https://install.python-poetry.org | python3 -
 
