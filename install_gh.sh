@@ -1,4 +1,5 @@
 # https://github.com/cli/cli/blob/trunk/docs/install_linux.md
+# https://cli.github.com/manual/gh
 
 (type -p wget >/dev/null || (sudo apt update && sudo apt-get install wget -y)) \
 	&& sudo mkdir -p -m 755 /etc/apt/keyrings \
