@@ -2,3 +2,4 @@ aws/
 google-cloud-sdk/
 *.zip
 *.tar.gz
+*.env
