@@ -18,3 +18,5 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 
 # https://gist.github.com/cristian-aldea/c8f91187de922303fa10c6e5fd85e324
 # ZSH_THEME="powerlevel10k/powerlevel10k"
+
+# $(which zsh)

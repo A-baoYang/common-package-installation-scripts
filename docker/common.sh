@@ -5,4 +5,4 @@ docker rmi $(docker images -q -f "dangling=true")
 docker cp CONTAINER:/var/logs/ /tmp/app_logs
 
 # clean docker images except tagged "latest" one
-docker images --format "{{.Repository}}:{{.Tag}}" | grep -v "latest" | grep -v "v0.32.7" | xargs -r docker rmi
+docker images --format "{{.Repository}}:{{.Tag}}" | grep -v "latest" | grep -v "v0.35.0" | grep -v "v0.0.1-23" | xargs -r docker rmi
